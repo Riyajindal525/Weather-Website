@@ -327,4 +327,25 @@ body {
 
     ::-webkit-scrollbar-thumb:hover {
         background: rgba(255,255,255,0.5);
+
     }
+        @media (max-width: 480px) {
+    .cold-weather {
+    background: 
+        url('coldweather2.jpg') center/cover no-repeat;
+        width : 100%;
+}
+
+.perfect-weather {
+    background: 
+        url('perfectweather2.jpeg') center/cover no-repeat;
+         width : 100%;
+}
+
+.hot-weather {
+    background: 
+        url('Hotday2.jpg') center/cover no-repeat;
+         width : 100%;
+}
+
+}
